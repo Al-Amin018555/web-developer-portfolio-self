@@ -103,7 +103,8 @@ nav li a {
 .banner-profile img {
     width: 500px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -142,54 +143,105 @@ main section {
 }
 
 /* what-i-do-related styles */
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
     margin-top: 0;
     margin-bottom: 20px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
     gap: 25px;
 }
-.skills{
+
+.skills {
     background: #FFFFFF;
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 15px 25px;
 }
-.skill-title{
-    color: #181818; ;
+
+.skill-title {
+    color: #181818;
+    ;
     font-weight: 700;
     font-size: 20px;
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
     text-align: justify;
 
 }
+
 /* resume realted styles */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
-.resume-qualification{
+
+.resume-qualification {
     color: #474747;
     font-weight: 700;
     font-size: 25px;
 }
-.resume-institution{
+
+.resume-institution {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
 }
-.resume-description{
+
+.resume-description {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer related styles */
+footer {
+    background: #FFF8F3;
+    display: flex;
+    gap: 80px;
+    margin-top: 130px;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.footer-description {
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.footer-column input[type="text"],
+.footer-column input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #FFFFFF;
+    width: 100%;
 }
