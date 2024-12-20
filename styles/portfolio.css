@@ -169,3 +169,27 @@ main section {
     text-align: justify;
 
 }
+/* resume realted styles */
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-qualification{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+.resume-institution{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
